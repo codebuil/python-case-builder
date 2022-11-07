@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>
+			javascript lab
+		</title>
+	</head>
+	<body bgcolor="000FF00#" style="color:black">
+<br>output<br>
+		<TextArea ID="input2"  style="color:black" rows="8" cols="50">
+
+		</TextArea>
+<br>code<br>
+		<TextArea ID="input1"  style="color:black" rows="8" cols="50">10</TextArea>
+		<p>
+		<button onclick="shelles012345678901234567890()" style="color:black">
+			run
+		</button>
+		</p>
+		<script>
+			screen012345678901234567890="";
+			function calls(s012345678901234567890){
+				return eval(s012345678901234567890.toString());
+				
+				}
+			function print(s012345678901234567890){
+				screen012345678901234567890=screen012345678901234567890+s012345678901234567890+"\n";
+			}
+			function eeval012345678901234567890(){
+				var n=0;
+				
+				const b012345678901234567890 = document.getElementById('input1');				
+				const c012345678901234567890=document.getElementById('input2');
+				var nn=parseInt(b012345678901234567890.value)
+              for(n=0;n<nn;n++){
+              	screen012345678901234567890=screen012345678901234567890+"case";
+              screen012345678901234567890=screen012345678901234567890+n.toString();
+              screen012345678901234567890=screen012345678901234567890+":\n // code \nbreak;\n "
+              	}
+              screen012345678901234567890=screen012345678901234567890+"default:\n// code\n\n}\n";
+				c012345678901234567890.value=screen012345678901234567890;
+			}
+			function shelles012345678901234567890(){
+				screen012345678901234567890="select (var){\n";
+				eeval012345678901234567890();
+			}
+		</script>	
+	</body>
+</html>
